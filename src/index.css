@@ -2,13 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
-/* -------------------------------
-   Custom Utility Classes
---------------------------------*/
 @layer utilities {
   .animate-fade-in-up {
-    animation: fadeInUp 1s ease-out forwards;
+    animation: fadeInUp 1s ease-out;
   }
 
   .animate-blob {
@@ -16,25 +12,20 @@
   }
 
   .animation-delay-2000 {
-    animation-delay: 2000ms;
+    animation-delay: 2s;
   }
 
   .animation-delay-4000 {
-    animation-delay: 4000ms;
+    animation-delay: 4s;
   }
 }
 
-
-/* -------------------------------
-   Animations
---------------------------------*/
 @keyframes fadeInUp {
-  0% {
+  from {
     opacity: 0;
     transform: translateY(30px);
   }
-
-  100% {
+  to {
     opacity: 1;
     transform: translateY(0);
   }
@@ -44,24 +35,17 @@
   0% {
     transform: translate(0px, 0px) scale(1);
   }
-
   33% {
     transform: translate(30px, -50px) scale(1.1);
   }
-
   66% {
     transform: translate(-20px, 20px) scale(0.9);
   }
-
   100% {
     transform: translate(0px, 0px) scale(1);
   }
 }
 
-
-/* -------------------------------
-   Global Styles
---------------------------------*/
 html {
   scroll-behavior: smooth;
 }
