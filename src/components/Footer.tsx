@@ -10,7 +10,7 @@ export default function Footer() {
             <img 
               src="Summerise_logo_white.png" 
               alt="Summerize Moral School" 
-              className="h-52 sm:h-36 lg:h-40"
+              className="h-24 sm:h-24 lg:h-40"
             />
           </div> <br />
             <p className="text-gray-400 leading-relaxed">
