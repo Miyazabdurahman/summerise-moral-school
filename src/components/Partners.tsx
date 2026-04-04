@@ -16,7 +16,7 @@ export default function Partners() {
           <h2 className="text-3xl sm:text-5xl font-bold mb-4">
             Gallery
           </h2>
-          <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+          <p className="text-lg sm:text-xl text-black-600 dark:text-gray-300 max-w-3xl mx-auto">
             Proudly fulfilled our mission of empowering students with strong moral values, leadership skills, and character development in the past couple of years.
           </p>
         </div>

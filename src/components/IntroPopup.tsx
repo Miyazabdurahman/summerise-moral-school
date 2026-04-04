@@ -6,7 +6,7 @@ export default function IntroPopup() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShow(true);
-    }, 4500);
+    }, 1500);
 
     return () => clearTimeout(timer);
   }, []);
@@ -46,7 +46,7 @@ export default function IntroPopup() {
           <p>YOLO സത്യമാണോ</p>
 
           <p>
-            സത്യം എന്താണെന്നും അസത്യം എന്താണെന്നും നാം തിരിച്ചറിയേണ്ട
+            സത്യം എന്താണെന്നും അസത്യം എന്താണെന്നും നാം തിരിച്ചറിയണ്ടേ
           </p>
 
           <p>നമുക്ക് മറ്റൊരു ജീവിതം ഇല്ലേ</p>

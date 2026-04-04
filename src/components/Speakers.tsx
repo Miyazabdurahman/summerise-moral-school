@@ -55,7 +55,7 @@ export default function Speakers() {
             Speakers
           </h2>
           <p className="text-xl text-gray-600">
-            Learn from industry leaders and<br /> inspirational mentors
+           Guidance from Scholars and Mentors on Life, Values & Modern Challenges
           </p>
         </div>
 

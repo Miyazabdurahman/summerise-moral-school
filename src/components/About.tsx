@@ -3,14 +3,12 @@ export default function About() {
     <section id="about" className="py-16 ">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-3xl sm:text-5xl font-bold text-gray-900 mb-8">
-          About Summerize Moral School
+          About Summerise Moral School
         </h2>
         <p className="text-xl text-gray-600 leading-relaxed">
-          Summerize Moral School is a transformative program designed to empower students with strong moral values, leadership skills, and character development. Through engaging workshops, inspiring speakers, and interactive sessions, we aim to shape the next generation of ethical leaders who will make a positive impact on society.
+          Summerise Moral School is an 8-day value-based educational program designed to guide students towards strong character, Islamic values, and purposeful living. The program addresses modern challenges faced by youth such as social media addiction, mental health struggles, peer pressure, and moral confusion through engaging sessions, activities, and mentorship. It combines learning, interaction, and spiritual development to help students build discipline, leadership, and responsibility while preparing them to become confident individuals who positively impact society and the Ummah.
         </p>
-        <p className="text-xl text-gray-600 leading-relaxed mt-6">
-          Join us for two days of learning, growth, and inspiration as we explore the principles of integrity, responsibility, compassion, and excellence.
-        </p>
+        
       </div>
     </section>
   );

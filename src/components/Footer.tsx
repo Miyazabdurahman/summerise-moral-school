@@ -59,7 +59,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 pt-8 text-center">
           <p className="text-gray-400">
-            © 2026 Summerize Moral School. All rights reserved.
+            © 2026 Summerise Moral School. All rights reserved.
           </p>
         </div>
       </div>

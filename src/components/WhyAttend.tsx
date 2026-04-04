@@ -4,23 +4,23 @@ export default function WhyAttend() {
   const reasons = [
     {
       icon: BookOpen,
-      title: 'Learning',
-      description: 'Gain valuable insights from expert speakers and interactive workshops focused on moral values and personal development.',
+      title: 'Purpose & Values',
+      description: 'Discover the true purpose of life and strengthen your moral and Islamic values through meaningful sessions and guidance.',
     },
     {
       icon: Award,
-      title: 'Leadership',
-      description: 'Develop essential leadership skills and learn how to inspire positive change in your community and beyond.',
+      title: 'Leadership & Character',
+      description: 'Develop leadership qualities, discipline, and confidence to become a responsible and impactful individual.',
     },
     {
       icon: Sparkles,
-      title: 'Motivation',
-      description: 'Get inspired by success stories and discover your potential to make a meaningful impact in the world.',
+      title: 'Mental & Personal Growth',
+      description: 'Learn to handle stress, overcome fears, and build a positive mindset for personal and spiritual growth.',
     },
     {
       icon: Users,
-      title: 'Networking',
-      description: 'Connect with like-minded students, educators, and mentors who share your passion for values-based education.',
+      title: 'Digital Awareness & Society',
+      description: 'Understand social media addiction, peer pressure, and modern challenges while building strong social responsibility.',
     },
   ];
 

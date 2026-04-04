@@ -32,7 +32,7 @@ export default function Hero() {
           <br />
           {/* Subtitle */}
           <p className="text-base sm:text-xl lg:text-2xl text-gray-600 max-w-3xl mx-auto px-2">
-            Transforming Students Through<br />Values & Leadership
+            Empowering Students With Values, Purpose & Real-Life Guidance
           </p>
 
           {/* Event Info */}
@@ -52,7 +52,7 @@ export default function Hero() {
               <MapPin className="text-purple-600" size={22} />
               <div>
                 <div className="text-xs sm:text-sm text-gray-500">Location</div>
-                <div className="font-medium text-gray-900 text-sm sm:text-base">
+                <div className="font-semibold text-gray-900 text-sm sm:text-base">
                   TIRURANGADI
                 </div>
               </div>
