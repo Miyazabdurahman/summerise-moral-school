@@ -16,7 +16,7 @@ export default function Speakers() {
       name: 'Aman',
       title: 'Motivational Speaker',
       description: 'Inspiring youth advocate and TEDx speaker on personal growth and values.',
-      image: '?auto=compress&cs=tinysrgb&w=400',
+      image: '/aman.jpg?auto=compress&cs=tinysrgb&w=400',
     },
     {
       name: 'Adil',
