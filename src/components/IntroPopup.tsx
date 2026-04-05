@@ -64,7 +64,7 @@ export default function IntroPopup() {
           </p>
           
           <p className="font-semibold text-lg">
-            ഈ ചോദ്യങ്ങൾക്കെല്ലാം മറുപടിയായി ...
+            ഈ ചോദ്യങ്ങൾക്കെല്ലാം മറുപടിയായി,
             <br /> ഈ പ്രശ്നങ്ങൾക്കെല്ലാം പരിഹാരമായി...
           </p>
 
