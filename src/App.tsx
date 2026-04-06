@@ -24,6 +24,7 @@ function App() {
       <Partners />
       <CTA />
       <Footer />
+      <Analytics />
     </div>
   );
 }
