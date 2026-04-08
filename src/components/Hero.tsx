@@ -66,7 +66,7 @@ export default function Hero() {
             >
               <Building2 className="text-purple-600" size={22} />
               <div>
-                <div className="text-xs sm:text-sm text-gray-500">Venue</div>
+                <div className="text-xs sm:text-sm text-gray-500">Venue (Click here for Location)</div>
                 <div className="font-semibold text-gray-900 text-sm sm:text-base">
                   KM Moulavi Quran Hadeeth Center
                 </div>
