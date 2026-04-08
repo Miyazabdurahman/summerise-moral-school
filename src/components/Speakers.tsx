@@ -28,6 +28,18 @@ export default function Speakers() {
       name: 'Salahudheen Ibn Saleem',
       image: '/Salahudin_bin_Saleem.png',
     },
+        {
+      name: 'Shamjas K Abbas',
+      image: '/shamjas.png',
+    },
+     {
+      name: 'Mushtaq Al Hikami',
+      image: '/mushtaq.png',
+    },
+    {
+      name: 'Jamal Cheruvadi',
+      image: '/jamal.png',
+    },
     {
       name: 'Kunjali Madani',
       image: '/kunjali.png',
@@ -44,6 +56,7 @@ export default function Speakers() {
       name: 'Akbarsha Al Hikami',
       image: '/akbarsha.png',
     },
+ 
   ];
 
   return (
