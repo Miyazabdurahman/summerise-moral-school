@@ -1,6 +1,12 @@
 import { Calendar, MapPin, Building2 } from 'lucide-react';
 
 export default function Hero() {
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <section id="hero" className="relative pt-12 min-h-[80vh] sm:min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-purple-50 via-blue-50 to-indigo-50">
       <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
@@ -87,15 +93,12 @@ export default function Hero() {
               Register Now
             </a>
 
-            <a
-              href='/Summerise_pamphlet_site.pdf'
-              target='_blank'
-              rel='noopener noreferrer'
-              className="px-6 py-3 sm:px-8 sm:py-4 bg-white text-gray-900 rounded-full font-semibold text-base sm:text-lg hover:shadow-xl hover:scale-105 transition-all duration-300 border-2 border-gray-200"
-            >
-              View Details
-            </a>
-
+            <button
+            onClick={() => scrollToSection('speakers')}
+               className="px-6 py-3 sm:px-8 sm:py-4 bg-white text-gray-900 rounded-full font-semibold text-base sm:text-lg hover:shadow-xl hover:scale-105 transition-all duration-300 border-2 border-gray-200"
+              >
+             View Speakers
+           </button>
           </div>
 
         </div>

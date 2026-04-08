@@ -17,6 +17,10 @@ export default function Speakers() {
       image: '/Amjad_Madani.png',
     },
     {
+      name: 'Shamjas K Abbas',
+      image: '/shamjas.png',
+    },
+    {
       name: 'Shabeeb Swalahi',
       image: '/shabeeb.png',
     },
@@ -28,10 +32,7 @@ export default function Speakers() {
       name: 'Salahudheen Ibn Saleem',
       image: '/Salahudin_bin_Saleem.png',
     },
-        {
-      name: 'Shamjas K Abbas',
-      image: '/shamjas.png',
-    },
+        
      {
       name: 'Mushtaq Al Hikami',
       image: '/mushtaq.png',
