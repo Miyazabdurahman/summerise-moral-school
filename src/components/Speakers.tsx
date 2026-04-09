@@ -21,6 +21,11 @@ export default function Speakers() {
       image: '/shamjas.png',
     },
     {
+      name: 'Sajjad Bin Abdurazaq',
+      image: '/sajjad.png',
+    },
+    
+    {
       name: 'Shabeeb Swalahi',
       image: '/shabeeb.png',
     },
@@ -42,12 +47,16 @@ export default function Speakers() {
       image: '/jamal.png',
     },
     {
-      name: 'Kunjali Madani',
-      image: '/kunjali.png',
-    },
-    {
       name: 'U Muhammad Madani',
       image: '/umadani.png',
+    },
+    {
+      name: 'Nushan Randathani',
+      image: '/nushan.png',
+    },
+    {
+      name: 'Hisham Al Hikami',
+      image: '/hisham.png',
     },
     {
       name: 'Abdul Rauf Al Hikami',
@@ -57,8 +66,7 @@ export default function Speakers() {
       name: 'Akbarsha Al Hikami',
       image: '/akbarsha.png',
     },
- 
-  ];
+       ];
 
   return (
     <section id="speakers" className="py-16">
