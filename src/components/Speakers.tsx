@@ -66,6 +66,10 @@ export default function Speakers() {
       name: 'Akbarsha Al Hikami',
       image: '/akbarsha.png',
     },
+    {
+      name: 'Faisal Al Hikami',
+      image: '/faisal.png',
+    },
        ];
 
   return (
