@@ -76,7 +76,7 @@ export default function Speakers() {
     },
     {
       name: 'Abdul Rahman Ansari',
-      image: '/aburahman.png',
+      image: '/abdurahman.png',
     },
        ];
 
