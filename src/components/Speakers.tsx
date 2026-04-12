@@ -70,6 +70,14 @@ export default function Speakers() {
       name: 'Faisal Al Hikami',
       image: '/faisal.png',
     },
+    {
+      name: 'Abdul Salam VT',
+      image: '/abdussalam.png',
+    },
+    {
+      name: 'Abdul Rahman Ansari',
+      image: '/aburahman.png',
+    },
        ];
 
   return (
